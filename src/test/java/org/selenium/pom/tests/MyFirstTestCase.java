@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class MyFirstTestCase extends BaseTest {
 
-    @Test
+    //@Test
     public void openAmazonPage(){
         String searchFor = "toe separators";
         AmazonPage amazonPage = new AmazonPage(getDriver()).

@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class IHerbPageTest extends BaseTest {
 
-    @Test
+    //@Test
     public void openIHerbPage(){
         String searchFor = "betaine pepsin";
         IHerbPage iHerbPage = new IHerbPage(getDriver()).
